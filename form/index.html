@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <img class="mobile-image" src="bg-sidebar-mobile.svg" alt="My Image">
+    <form class="form-container" action="">
+        <div class="aside">
+            <div id="image">
+                <img src="bg-sidebar-desktop.svg" style="width: 230px" alt="My Image" />
+            </div>
+            <!-- STEPS BUTTON -->
+            <div class="info-container">
+                <div class="items">
+                    <h5 class="first-step">1</h5>
+                    <div>
+                        <p>STEP 1</p>
+                        <p>YOUR INFO</p>
+                    </div>
+                </div>
+                <div class="items">
+                    <h5 class="steps">2</h5>
+                    <div>
+                        <p>STEP 2</p>
+                        <p>SELECT PLAN</p>
+                    </div>
+                </div>
+                <div class="items">
+                    <h5 class="steps">3</h5>
+                    <div>
+                        <p>STEP 3</p>
+                        <p>ADD-ONS</p>
+                    </div>
+                </div>
+                <div class="items">
+                    <h5 class="steps">4</h5>
+                    <div>
+                        <p>STEP 4</p>
+                        <p>SUMMARY</p>
+                    </div>
+                </div>
+
+                <!-- <div class="image-text">STEP 1</div> <div class="image-text1">YOUR INFO</div>
+                <div class="step-2">STEP 2</div> <div class="image-text2">SELECT PLAN</div></div>
+                <div class="step-3">STEP 3</div> <div class="image-text3">ADD-ONS</div></div>
+                <div class="step-4">STEP 4</div> <div class="image-text4">SUMMARY</div></div> -->
+            </div>
+        </div>
+
+        <div class="form-inputs">
+            <!-- Heading -->
+            <div class="first">
+                <h1 id="h1">Personal Info</h1>
+                <p id="p1">
+                    Please provide your name, email address, and phone number.
+                </p>
+            </div>
+
+            <!-- Inputs -->
+            <div class="input">
+                <p class="p1">Name</p>
+                <input type="text" name="name" id="name" class="first-input" placeholder="e.g Stephen King" />
+                <p class="p1">Email Adress</p>
+                <input type="email" name="emailaddress" id="email" class="second-input"
+                    placeholder="e.g stephenking@gmail.com" />
+                <p class="p1">Phone Number</p>
+                <input type="number" name="number" id="phonenumber" placeholder="e.g +1 234 567 890"
+                    class="third-input" />
+            </div>
+            <div class="btn">
+                <button class="botton-1">Next Step</button>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
